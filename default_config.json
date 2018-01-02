@@ -1,0 +1,18 @@
+{
+    "Endpoint": "/mailhook",
+	"Host": ":4000",
+	"DownloadFolder": "/tmp",
+	"BotApiToken": "",
+	"WebhookAuthKeys": ["not_secure_key"],
+	"DbPath": "./subscribers.db",
+	"Commands": {
+		"subscribe":   "/subscribe",
+		"unsubscribe": "/unsubscribe"
+	},
+	"Responses": {
+		"subscribe_success":     "You are now subscribed to Hookbot.",
+		"subscribe_duplicate":   "You are already subscribed.",
+		"unsubscribe_success":   "You are now unsubscribed to Hookbot.",
+		"unsubscribe_duplicate": "You are not yet subscribed."
+	}
+}
